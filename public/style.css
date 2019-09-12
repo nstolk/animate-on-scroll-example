@@ -72,9 +72,13 @@ img {
     padding: 2rem;
 }
 
+.card:nth-child(odd) {
+    border-radius: 25px 0px 0px 25px;
+}
+
 .card:nth-child(even) img {
     order: 2;
-    border-radius: 0px 25px 0px 25px;
+    border-radius: 0px 25px 25px 0px;
 }
 
 .btn {
