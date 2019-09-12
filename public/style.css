@@ -72,7 +72,7 @@ img {
     padding: 2rem;
 }
 
-.card:nth-child(odd) {
+.card:nth-child(odd) img {
     border-radius: 25px 0px 0px 25px;
 }
 
